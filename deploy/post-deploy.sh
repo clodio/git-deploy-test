@@ -3,8 +3,8 @@
 if [ "$1" == "error" ]
 then
   echo "**** post-deploy ERROR"
-  exit 3
+  exit 0
 else
   echo "**** post-deploy OK"
-  exit 0
+  exit 3
 fi
